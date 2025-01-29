@@ -186,6 +186,9 @@ alias fp="fzf --preview 'bat --style=numbers --color=always --line-range :500 {}
 # search for a file with fzf and open it in vim
 alias vf='v $(fp)'
 
+# Set up fzf key bindings and fuzzy completion
+eval "$(fzf --bash)"
+
 ssh-add -l | grep -q $(ssh-keygen -lf ~/.ssh/id_ed25519 | awk '{print $2}') || ssh-add ~/.ssh/id_ed25519
 export PAGER="most"
 eval "$(starship init bash)"

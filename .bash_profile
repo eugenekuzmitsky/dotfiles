@@ -1,6 +1,7 @@
-# Only run on macOS
 
 eval "$(/usr/local/bin/brew shellenv)"
+
+[[ -r "/usr/local/etc/profile.d/bash_completion.sh" ]] && . "/usr/local/etc/profile.d/bash_completion.sh"
 
 if [ -r ~/.bashrc ]; then
   source ~/.bashrc
