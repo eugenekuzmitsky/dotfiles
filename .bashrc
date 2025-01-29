@@ -31,8 +31,8 @@ export GOPATH="$HOME/go/"
 # ~~~~~~~~~~~~~~~ History ~~~~~~~~~~~~~~~~~~~~~~~~
 
 export HISTFILE=~/.histfile
-export HISTSIZE=25000
-export SAVEHIST=25000
+export HISTSIZE=100000
+export SAVEHIST=100000
 
 # ~~~~~~~~~~~~~~~ Functions ~~~~~~~~~~~~~~~~~~~~~~~~
 
