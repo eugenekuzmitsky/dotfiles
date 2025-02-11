@@ -87,8 +87,6 @@ alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
 
-alias bat='batcat'
-
 # custom aliases
 alias ct='clear; task'
 
